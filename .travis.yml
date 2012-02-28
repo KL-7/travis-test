@@ -8,4 +8,6 @@ matrix:
 branches:
   only: master
 notifications:
-  email: kl7.test@gmail.com
+  email:
+    - kl7.test@gmail.com
+    - kl-7@inbox.ru

@@ -12,7 +12,7 @@ task :test do
     putc '.'
     $stdout.flush
   end
-  # foo!
+  # foo! 
   exit 1
 end
 

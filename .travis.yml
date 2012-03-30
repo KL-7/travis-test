@@ -8,7 +8,6 @@ matrix:
 branches:
   only:
     - master
-    - feature
     - /^deploy-.*$/
 notifications:
   email:

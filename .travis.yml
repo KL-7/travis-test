@@ -6,9 +6,9 @@ matrix:
   exclude:
     - rvm: rbx
 branches:
-  only:
-    - master
-    - /^deploy-.*$/
+  except:
+    - feature
+    - /^test-.*$/
 notifications:
   email:
     - kl7.test@gmail.com
